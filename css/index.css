@@ -1,0 +1,243 @@
+
+/* CORPS DE LA PAGE */
+
+body{
+    /* Disposition  du body */
+    width: 100%;
+    height: 100vh;
+    /* position: fixed; */
+    /* disposition des éléments dans body */
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* apparence du body */
+    background-color: rgb(255, 255, 255);
+    color:antiquewhite;
+
+}
+.titres{
+     font-family: Metamorphous;
+}
+
+
+
+
+
+
+
+
+    
+    /* BARRE DE NAVIGATION */
+    #navBarHaut{
+        /* Disposition de la nav */
+        /* position:fixed; */
+        margin-top: 0px;
+        /* Disposition des éléments */
+        z-index: 10;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        /* Apparence */
+        background-color: rgb(244, 233, 215);
+        box-shadow: 0px 5px 50px rgba(71, 71, 71, 0.37);
+        width: 100%;
+        height: 50px;
+        /* height:50px;
+        width:100vh; */
+        border-radius: 0 0 50% 50%; 
+    }
+    #navBarHaut a{
+        /* margin: 0px 20px 0px 20px; */
+        transition-duration: 1s;
+        text-decoration: none;
+        color: rgb(36, 32, 59);
+        font-size: 16px;
+        text-shadow: 0px 0px 1px rgb(36, 32, 59);
+    }
+    #navBarHaut:hover a{
+        /* margin: 0px 20px 0px 20px; */
+        transition-duration: 1s;
+        text-decoration: underline;
+        color: rgb(36, 32, 59);
+        font-size: 16px;
+        
+    }
+    #navBarHaut:hover a:hover{
+        transition-duration: 1s;
+        text-decoration: underline;
+
+    }
+    #navBarHaut #NavBarHautLogoLien #NavBarHautLogoImage{
+        /* margin-top: 0px; */
+        /* margin-top: 70%; */
+        width:100px;
+        height:100px;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+    /* SECTION PRESENTATION */
+  /* FORMES ET ANIMATIONS DES BULLES */
+    #SectionPresentation{
+        /* forme de la section */
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        /* disposition de la section */
+        /* position:fixed; */
+        /* disposition des éléments dans la section*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        margin-top: -50px;
+    }
+    
+    
+    #SectionPresentation .boxsAccueil{
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.6s;
+        margin: 0px 50px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        /* transform: rotate(45deg); */
+        /* background-color: antiquewhite; */
+        filter:saturate(0.3);
+        filter:blur(10 10 10);
+        border: 1px double rgb(36, 32, 59);
+        outline: 3px solid rgb(244, 233, 215);
+        outline-offset: -1px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+        transition-duration: 0.6s;
+        width: 300px;
+        height: 300px;
+        border: 10px double rgb(36, 32, 59);
+        outline: 15px solid rgb(244, 233, 215);
+        outline-offset: -1px;
+        /* border: thick double rgb(36, 32, 59); */
+        box-shadow: 0px 0px 50px 30px rgba(71, 71, 71, 0.37);
+    }
+    /* LIENS DANS LES IMAGES/BOXS*/
+    #SectionPresentation .boxsAccueil a.titres{
+        transition-duration: 1s;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0);
+        font-size:25px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    
+    }
+    #SectionPresentation .boxsAccueil:hover .titres{
+        transition-duration: 1s;
+         color:rgb(244, 233, 215);
+         font-size:30px;
+         text-shadow: 1px 1px 1px rgb(36, 32, 59);
+    }
+    
+  /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+    #SectionPresentation #boxStudioLabel{
+        transition-duration: 0.6s;
+        margin-top:180px;
+        width: 350px;
+        height: 350px;
+    }
+    #SectionPresentation #boxStudioLabel:hover{
+        transition-duration: 0.6s;
+        width: 370px;
+        height: 370px;
+    }
+    #SectionPresentation #boxStudioLabel a.titres{
+        transition-duration: 1s;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0);
+        font-size:25px;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    
+    }
+    #SectionPresentation #boxStudioLabel:hover a.titres{
+       transition-duration: 1s;
+         color:rgb(244, 233, 215);
+         font-size:30px;
+         text-shadow: 1px 1px 1px rgb(36, 32, 59);
+    
+    }
+    
+    
+    
+    
+    
+    
+/* ICONES RESEAUX SOCIAUX */
+   section#ReseauxSociaux{
+    z-index: 9;
+    position: fixed;
+    margin-bottom: -570px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 50px;
+    width: 100%;
+   }
+   section.ReseauxSociaux-icones{
+    display: flex;
+    align-items: center;
+    width: 50%;
+   }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.6s;
+    width: 50px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.6s;
+    width: 55px;
+   }
+   section#instagram{
+    justify-content: end;
+   }
+   section#youtube{
+    justify-content: start;
+   }
+    
+    
+
+
+
+
+
+
+
+
+

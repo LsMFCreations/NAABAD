@@ -941,6 +941,73 @@ section#animated-background .air.air4{
 
 
 
+/* SAMSUNG GALAXY A51/71 412x914 */
+@media screen and (max-width: 413px) and (max-height:915px){
+  /* NAVBAR */
+  #navBarHaut.NavBarHaut-responsive-mobile{
+    height: 70px;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+    font-size:16px;
+  }
+   /* SECTION PRESENTATION */
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-412x914.png);
+      background-size: cover;
+        background-repeat: no-repeat;
+      padding-bottom: 20px;
+
+    }
+    #SectionPresentation .boxsAccueil{
+      margin-top: 30px;
+      width: 180px;
+      height: 180px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 190px;
+      height: 190px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 180px;
+        height: 180px;
+    }
+    #SectionPresentation .boxsAccueil a.titres h2{
+      font-size:28px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:30px;
+          width: 300px;
+          height: 300px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 320px;
+          height: 320px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 300px;
+          height: 300px;
+      }
+    #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:40px;
+    }
+
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1200px;
+    }
+    .animated-naabad h1 {
+      font-size: 1.3em;
+    }
+
+}
+
+
+
+
+
 
 
 

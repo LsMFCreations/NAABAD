@@ -696,6 +696,34 @@ section#animated-background .air{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* BARRE DE NAV DU HAUT POUR MOBILE*/
 @media screen and (max-width: 426px){
 #SectionPresentation{
@@ -788,8 +816,8 @@ section#animated-background .air{
     height: 120px;
   }
   #SectionPresentation .boxsAccueil:hover{
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
   }
   #SectionPresentation .boxsAccueil a.titres{
     width: 120px;
@@ -810,8 +838,8 @@ section#animated-background .air{
     }
    #SectionPresentation #boxStudioLabel:hover{
       margin-top:20px; 
-      width: 260px;
-      height: 260px;
+      width: 240px;
+      height: 240px;
    }
    #SectionPresentation #boxStudioLabel a.titres{
       width: 240px;
@@ -874,6 +902,84 @@ section#animated-background .air.air4{
 
 
 
+@media screen and (max-width: 415px){
+  /* NAVBAR */
+  #navBarHaut.NavBarHaut-responsive-desktop-tablet{
+    display: none;
+}
+#navBarHaut.NavBarHaut-responsive-mobile{
+    display: block;
+
+    /* Disposition des éléments */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    /* Apparence */
+    height:70px;
+    width:100%;
+    border-bottom: 3px solid #12111055;
+        box-shadow: 0px 0px 10px 10px rgba(71, 71, 71, 0.37);
+    
+}
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+    font-size:16px;
+  }
+   /* SECTION PRESENTATION */
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-414x896.png);
+      background-size: cover;
+        background-repeat: no-repeat;
+      padding-bottom: 20px;
+
+    }
+    #SectionPresentation .boxsAccueil{
+      margin-top: 30px;
+      width: 180px;
+      height: 180px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 180px;
+      height: 180px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 180px;
+        height: 180px;
+    }
+    #SectionPresentation .boxsAccueil a.titres h2{
+      font-size:28px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:30px;
+          width: 300px;
+          height: 300px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 300px;
+          height: 300px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 300px;
+          height: 300px;
+      }
+    #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:40px;
+    }
+
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1200px;
+    }
+    .animated-naabad h1 {
+      font-size: 1.3em;
+    }
+
+}
+
+
 
 
 
@@ -934,8 +1040,8 @@ section#animated-background .air.air4{
       height: 120px;
     }
     #SectionPresentation .boxsAccueil:hover{
-      width: 130px;
-      height: 130px;
+      width: 120px;
+      height: 120px;
     }
      #SectionPresentation .boxsAccueil a.titres{
         color:#F3E9D6;
@@ -952,8 +1058,8 @@ section#animated-background .air.air4{
           height: 240px;
       }
       #SectionPresentation #boxStudioLabel:hover{
-          width: 260px;
-          height: 260px;
+          width: 240px;
+          height: 240px;
       }
       #SectionPresentation #boxStudioLabel a.titres{
           width: 240px;
@@ -980,7 +1086,25 @@ section#animated-background .air.air4{
 
 
 
+@media screen and (max-width: 360px){
+  
+  #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-360x740.png);
+      padding-bottom: 20px;
+      margin-top: -50px;
+    }
+  #SectionPresentation .boxsAccueil{
+      margin-top: 30px;
+    }
+        #SectionPresentation #boxStudioLabel{
+          margin-top:30px;
+      }
 
+    /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1050px;
+    }
+}
 
 
 
@@ -1040,8 +1164,8 @@ section#animated-background .air.air4{
       height: 120px;
     }
     #SectionPresentation .boxsAccueil:hover{
-      width: 130px;
-      height: 130px;
+      width: 120px;
+      height: 120px;
     }
      #SectionPresentation .boxsAccueil a.titres{
         color:#F3E9D6;
@@ -1055,8 +1179,8 @@ section#animated-background .air.air4{
           height: 220px;
       }
       #SectionPresentation #boxStudioLabel:hover{
-          width: 230px;
-          height: 230px;
+          width: 220px;
+          height: 220px;
       }
       #SectionPresentation #boxStudioLabel a.titres{
           width: 220px;

@@ -1,0 +1,1203 @@
+/* ACCUEIL */
+
+
+
+/* BARRE DE NAV DU HAUT POUR DESKTOP ET TABLETTES*/
+@media screen and (max-width: 2561px) {
+  
+  
+  /* BARRE DE NAVIGATION */
+    #navBarHaut.NavBarHaut-responsive-mobile{
+      display: none;
+    }
+
+
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet{
+        /* Disposition des éléments */
+        z-index: 10;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        /* Apparence */
+        background-color: #F3E9D6;
+        border-bottom: 1px solid #12111055;
+        box-shadow: 0px 50px 50px rgba(71, 71, 71, 0.37);
+        border-radius: 0 0 50% 50%;   
+        /* Apparence */
+        width: 100%;
+        height: 150px;
+
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-liens{
+      display: flex;
+      align-items: end;
+      width: 45%;
+      height: 100%;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-liens.NavBarHaut-responsive-desktop-tablet-liens1{
+      justify-content: end;
+      padding-right: 9px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-liens.NavBarHaut-responsive-desktop-tablet-liens2{
+      justify-content: start;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-logo{
+      display: flex;
+      justify-content: center;
+      width: 10%;
+      height: 50px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres{
+      transition-duration: 1s;
+        font-size: 35px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet:hover a.titres{
+      transition-duration: 1s;
+      font-size: 36px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres:hover{
+        text-decoration: underline;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHautLogoLien #NavBarHautLogoImage{
+        width:400px;
+        height:344px;
+    }
+
+
+
+
+
+  /* SECTION PRESENTATION */
+  
+  /* FORMES ET ANIMATIONS DES BULLES */
+    #SectionPresentation{
+        background-image: url(../images/imageBackGroundIndex-whiteversion-1920.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 200px;
+        margin-top: 0px;
+    }
+
+    #SectionPresentation .boxsAccueil{
+        margin: 0px 70px;
+        width: 450px;
+        height: 450px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+        width: 470px;
+        height: 470px;
+    }
+
+  /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+  /* LIENS DANS LES IMAGES/BOXS*/
+    #SectionPresentation .boxsAccueil a.titres{
+        font-size:35px;
+        text-align: center;
+        width: 450px;
+        height: 450px;
+    }
+    #SectionPresentation .boxsAccueil:hover a.titres{
+        font-size:50px;
+    }
+    #SectionPresentation #boxStudioLabel{
+        margin-top:400px;
+        width: 750px;
+        height: 750px;
+    }
+    #SectionPresentation #boxStudioLabel:hover{
+      margin-top:380px;
+      width: 770px;
+      height: 770px;
+    }
+    #SectionPresentation #boxStudioLabel a.titres{
+        width: 750px;
+        height: 750px;
+    }
+     /* IMAGES DANS BULLES DE PRESENTATION */
+    #SectionPresentation #boxStudioEcosysteme{
+        background-image: url(../images/IdentiteArtistique.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #SectionPresentation #boxStudioLabel{
+        background-image: url(../images/StudioPresentation.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #SectionPresentation #boxStudioNews{
+        background-image: url(../images/Evenements.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+ /* ICONES RESEAUX SOCIAUX */
+   section#ReseauxSociaux{
+    z-index: 9;
+    position: fixed;
+    margin-bottom: -1100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 150px;
+    width: 100%;
+   }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.6s;
+    width: 120px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.6s;
+    width: 140px;
+   }
+
+
+
+
+
+
+/* NAABAB ANIMATé */
+  #animated-naabad-section {
+      z-index: 0;
+      position: fixed;
+      margin-top: -620px;
+  }
+    .animated-naabad h1 {
+      color: rgb(255, 255, 255);
+      font-size: 110px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  .animated-naabad h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(36, 32, 59);
+    font-family: Metamorphous;
+  }
+
+  .animated-naabad h1:nth-child(2) {
+    color: rgb(196, 189, 176);
+    animation: animate 4s ease-in-out infinite;
+    font-family: Metamorphous;
+  }
+
+
+
+
+
+ /* BACKGROUND WAVE ANIMe */
+section#animated-background .air{
+  height: 100px;
+  background-size: 100% 70px;
+}
+section#animated-background .air.air2{
+  animation: wave2 35s linear infinite;
+  z-index: 3;
+  opacity: 0.3;
+  animation-delay: 0s;
+  bottom: -6px;
+}
+section#animated-background .air.air3{
+  animation: wave 45s linear infinite;
+  z-index: 2;
+  opacity: 0.2;
+  animation-delay: 0s;
+  bottom: -15px;
+}
+section#animated-background .air.air4{
+  animation: wave2 15s linear infinite;
+  z-index: 1;
+  opacity: 0.5;
+  animation-delay: 0s;
+  bottom: -2px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1681px){
+ /* BARRE DE NAVIGATION */
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet{
+        width: 100%;
+        height: 80px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres{
+        transition-duration: 0.3s;
+        font-size: 17px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet:hover a.titres{
+       transition-duration: 0.3s;
+        font-size: 18px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres:hover{
+      text-decoration: underline;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHautLogoLien #NavBarHautLogoImage{
+        /* margin-top: 0px; */
+        /* margin-top: 70%; */
+        width:200px;
+        height:172px;
+    }
+    
+    
+    
+    
+  /* SECTION PRESENTATION */
+  /* FORMES ET ANIMATIONS DES BULLES */
+    #SectionPresentation{
+        /* disposition des éléments dans la section*/
+        padding-bottom: 50px;
+        margin-top: -50px;
+    }
+    
+    
+    #SectionPresentation .boxsAccueil{
+        margin: 0px 50px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+        transition-duration: 0.6s;
+        width: 300px;
+        height: 300px;
+        
+    }
+    /* LIENS DANS LES IMAGES/BOXS*/
+    #SectionPresentation .boxsAccueil a.titres{
+        font-size:25px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    
+    }
+    #SectionPresentation .boxsAccueil:hover .titres{
+        transition-duration: 1s;
+         color:rgb(244, 233, 215);
+    }
+    
+  /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+    #SectionPresentation #boxStudioLabel{
+        transition-duration: 0.6s;
+        margin-top:180px;
+        width: 380px;
+        height: 380px;
+    }
+    #SectionPresentation #boxStudioLabel:hover{
+        transition-duration: 0.6s;
+        margin-top:180px;
+        width: 400px;
+        height: 400px;
+        
+    }
+    #SectionPresentation #boxStudioLabel a.titres{
+      width: 380px;
+      height: 380px;
+      
+    }
+    #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:40px;
+    }
+    
+
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.3s;
+    width: 70px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.3s;
+    width: 80px;
+   }
+
+
+
+
+/* ICONES RESEAUX SOCIAUX */
+   section#ReseauxSociaux{
+    margin-bottom: -550px;
+    height: 70px;
+   }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    width: 60px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    width: 70px;
+   }
+
+
+
+
+/* NAABAB ANIMATé */
+  #animated-naabad-section {
+      z-index: 0;
+      position: fixed;
+      margin-top: -330px;
+  }
+    .animated-naabad h1 {
+      font-size: 55px;
+    }
+
+
+
+  /* BACKGROUND WAVE ANIMe */
+section#animated-background .air{
+  height: 60px;
+  background-size: 100% 60px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1441px){
+  /* NAVBAR  */
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet {
+      height: 80px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres{
+        font-size: 20px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet:hover a.titres{
+        font-size: 21px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHautLogoLien #NavBarHautLogoImage{
+        /* margin-top: 120px; */
+        width:200px;
+        height:172px;
+    }
+
+
+
+
+  /* SECTION PRESENTATION */
+  /* FORMES ET ANIMATIONS DES BULLES */
+    #SectionPresentation{
+        padding-bottom: 90px;
+        margin-top: -50px;
+        background-image: url(../images/imageBackGroundIndex-naabadversion-1440.png);
+    }
+
+
+    #SectionPresentation .boxsAccueil{
+        margin: 0px 50px;
+        width: 260px;
+        height: 260px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+        transition-duration: 0.6s;
+        width: 280px;
+        height: 280px;
+    }
+    /* LIENS DANS LES IMAGES/BOXS*/
+      #SectionPresentation .boxsAccueil a.titres{
+          width: 260px;
+          height: 260px;
+  
+      }
+  /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+    #SectionPresentation #boxStudioLabel{
+      transition-duration: 0.6s;
+      margin-top:200px;
+      width: 400px;
+      height: 400px;
+    }
+    #SectionPresentation #boxStudioLabel:hover{
+      transition-duration: 0.6s;
+      width: 420px;
+      height: 420px;
+    }
+    #SectionPresentation #boxStudioLabel a.titres{
+      width: 400px;
+      height: 400px;
+    }
+
+
+
+
+  /* NAABAB ANIMATé */
+    #animated-naabad-section {
+        margin-top: -360px;
+    }
+      .animated-naabad h1 {
+        font-size: 55px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1025px){
+  /* NAVBARHAUT DESKPTOP TABLET */
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet {
+      height: 70px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-liens{
+      width: 45%;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres{
+        font-size: 15px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet:hover a.titres{
+        font-size: 16px;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-logo{
+      width: 10%;
+    }
+    #navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHautLogoLien #NavBarHautLogoImage{
+        /* margin-top: 80px; */
+        width:150px;
+        height:129px;
+    }
+
+  /* SECTION PRESENTATION */
+    #SectionPresentation{
+        /* disposition des éléments dans la section*/
+
+        padding-bottom: 90px;
+        margin-top: -50px;
+
+        background-image: url(../images/imageBackGroundIndex-naabadversion-1024.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #SectionPresentation .boxsAccueil{
+        margin: 0 30px;
+        width: 200px;
+        height: 200px;
+
+    }
+    #SectionPresentation .boxsAccueil:hover{
+        width: 220px;
+        height: 220px;
+
+    }
+    #SectionPresentation .boxsAccueil a.titres{
+        width: 200px;
+        height: 200px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:160px;
+          width: 340px;
+          height: 340px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 360px;
+          height: 360px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 340px;
+          height: 340px;
+      }
+
+  /* ICONES RESEAUX SOCIAUX */
+   section#ReseauxSociaux{
+    margin-bottom: -440px;
+    height: 60px;
+   }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    width: 50px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    width: 60px;
+   }
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section {
+        margin-top: -350px;
+    }
+      .animated-naabad h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 769px){
+
+/* NAVBAR DESKTOP TABLET */
+#navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHautLogoLien #NavBarHautLogoImage{
+    /* margin-top: 80px; */
+    width:150px;
+    height:129px;
+}
+#navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-liens{
+  width: 47.5%;
+}
+#navBarHaut.NavBarHaut-responsive-desktop-tablet a.titres{
+    font-size: 14px;
+}
+#navBarHaut.NavBarHaut-responsive-desktop-tablet:hover a.titres{
+    font-size: 15px;
+}
+#navBarHaut.NavBarHaut-responsive-desktop-tablet #NavBarHaut-responsive-desktop-tablet-logo{
+  width: 15%;
+}
+
+
+/* SECTION PRESENTATION */
+  #SectionPresentation{
+    /* disposition des éléments dans la section*/
+
+    padding-bottom: 100px;
+    margin-top: -50px;
+
+    background-image: url(../images/imageBackGroundIndex-naabadversion-768.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#SectionPresentation .boxsAccueil{
+    margin: 0 20px;
+    width: 160px;
+    height: 160px;
+        border: 6px solid rgb(244, 233, 215);
+        outline: 1px solid rgb(36, 32, 59);
+        outline-offset: 3px;
+        box-shadow: 0px 0px 50px 10px rgba(71, 71, 71, 0.37);
+
+}
+#SectionPresentation .boxsAccueil:hover{
+    width: 180px;
+    height: 180px;
+}
+#SectionPresentation .boxsAccueil a.titres{
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+#SectionPresentation .boxsAccueil a.titres h2{
+        color:#F3E9D6;
+        text-shadow: 1px 1px 1px rgb(36, 32, 59);
+        font-size:20px;
+}
+/* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+#SectionPresentation #boxStudioLabel{
+    margin-top:160px;
+    width: 260px;
+    height: 260px;
+  }
+  #SectionPresentation #boxStudioLabel:hover{
+    width: 280px;
+    height: 280px;
+}
+#SectionPresentation #boxStudioLabel a.titres{
+    width: 260px;
+    height: 260px;
+}
+
+/* ICONES RESEAUX SOCIAUX */
+   section#ReseauxSociaux{
+    margin-bottom: -340px;
+    height: 60px;
+   }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    width: 50px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    width: 60px;
+   }
+
+
+/* NAABAD ANIMé */
+#animated-naabad-section{
+    margin-bottom: 0px;
+  }
+  .animated-naabad h1 {
+    font-size: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BARRE DE NAV DU HAUT POUR MOBILE*/
+@media screen and (max-width: 426px){
+#SectionPresentation{
+  background-image: url(../images/imageBackGroundIndex-mobile-425.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+#navBarHaut.NavBarHaut-responsive-desktop-tablet{
+    display: none;
+}
+#navBarHaut.NavBarHaut-responsive-mobile{
+    display: block;
+
+    /* Disposition des éléments */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    /* Apparence */
+    height:60px;
+    width:100%;
+    border-bottom: 3px solid #12111055;
+        box-shadow: 0px 0px 10px 10px rgba(71, 71, 71, 0.37);
+    
+}
+#navBarHaut.NavBarHaut-responsive-mobile section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens{
+    display: flex;
+    align-items: end;
+    width: 40%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size:14px;
+    color: rgb(36, 32, 59);
+    text-shadow: 0px 0px 1px rgb(36, 32, 59);
+}
+ #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres:hover{
+    text-decoration: underline;
+  }
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo{
+    width: 30%;
+    height: 100%;
+}
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo #NavBarHautLogoLien #NavBarHautLogoImage{
+    margin-top: 40px;
+    width:80px;
+    height:69px;
+}
+/* RESEAUX SOCIAUX */
+
+   section#ReseauxSociaux{
+    display: none;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautReseauxSociaux{
+      z-index: 11;
+      width: 30%;
+      flex-direction: column;
+      padding-top: 40px;
+  }
+  section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.6s;
+    width: 35px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.6s;
+    width: 40px;
+   }
+
+/* SECTION PRESENTATION */
+  #SectionPresentation{
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-top: -50px;
+  }
+  #SectionPresentation .boxsAccueil{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  #SectionPresentation .boxsAccueil:hover{
+    width: 120px;
+    height: 120px;
+  }
+  #SectionPresentation .boxsAccueil a.titres{
+    width: 120px;
+    height: 120px;
+
+      color:#F3E9D6;
+      text-shadow: 1px 1px 1px rgb(36, 32, 59);
+  }
+  #SectionPresentation .boxsAccueil a.titres h2{
+      font-size: 18px;
+      text-align: center;
+    }
+  /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+   #SectionPresentation #boxStudioLabel{
+      margin-top:20px;
+      width: 240px;
+      height: 240px;
+    }
+   #SectionPresentation #boxStudioLabel:hover{
+      margin-top:20px; 
+      width: 240px;
+      height: 240px;
+   }
+   #SectionPresentation #boxStudioLabel a.titres{
+      width: 240px;
+      height: 240px;
+
+        color:#F3E9D6;
+        text-shadow: 1px 1px 1px rgb(36, 32, 59);
+   }
+   #SectionPresentation #boxStudioLabel a.titres h2{
+          font-size: 35px;
+          text-align: center;
+   }
+
+
+
+/* NAABAD ANIMé */
+  #animated-naabad-section{
+    z-index: 2;
+    margin-bottom: -980px;
+  }
+  .animated-naabad h1 {
+    font-size: 1em;
+  }
+
+
+  /* BACKGROUND ANIMe */
+ /* BACKGROUND WAVE ANIMe */
+section#animated-background .air{
+  height: 60px;
+  background-size: 100% 60px;
+}
+section#animated-background .air.air2{
+  animation: wave2 35s linear infinite;
+  z-index: 3;
+  opacity: 0.3;
+  animation-delay: 0s;
+  bottom: -5px;
+}
+section#animated-background .air.air3{
+  animation: wave 45s linear infinite;
+  z-index: 2;
+  opacity: 0.2;
+  animation-delay: 0s;
+  bottom: -10px;
+}
+section#animated-background .air.air4{
+  animation: wave2 15s linear infinite;
+  z-index: 1;
+  opacity: 0.5;
+  animation-delay: 0s;
+  bottom: -2px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 415px){
+  /* NAVBAR */
+  #navBarHaut.NavBarHaut-responsive-desktop-tablet{
+    display: none;
+}
+#navBarHaut.NavBarHaut-responsive-mobile{
+    display: block;
+
+    /* Disposition des éléments */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    /* Apparence */
+    height:70px;
+    width:100%;
+    border-bottom: 3px solid #12111055;
+        box-shadow: 0px 0px 10px 10px rgba(71, 71, 71, 0.37);
+    
+}
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+    font-size:16px;
+  }
+   /* SECTION PRESENTATION */
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-414x896.png);
+      background-size: cover;
+        background-repeat: no-repeat;
+      padding-bottom: 20px;
+
+    }
+    #SectionPresentation .boxsAccueil{
+      margin-top: 30px;
+      width: 180px;
+      height: 180px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 180px;
+      height: 180px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 180px;
+        height: 180px;
+    }
+    #SectionPresentation .boxsAccueil a.titres h2{
+      font-size:28px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:30px;
+          width: 300px;
+          height: 300px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 300px;
+          height: 300px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 300px;
+          height: 300px;
+      }
+    #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:40px;
+    }
+
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1200px;
+    }
+    .animated-naabad h1 {
+      font-size: 1.3em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 376px){
+/* NAVBAR */
+ #navBarHaut.NavBarHaut-responsive-mobile{
+    height: 60px;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens{
+      width: 40%;
+      height: 100%;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+    color:rgb(36, 32, 59);
+    font-size:14px;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo{
+      width: 30%;
+      height: 100%;
+  }
+  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo #NavBarHautLogoLien #NavBarHautLogoImage{
+      margin-top: 40px;
+      width:80px;
+      height:69px;
+  }
+   /* RESEAUX SOCIAUX */
+    #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautReseauxSociaux{
+      width: 30%;
+      padding-top: 40px;
+  }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.6s;
+    width: 35px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.6s;
+    width: 40px;
+   }
+
+
+  /* SECTION PRESENTATION */
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-375.png);
+      background-size: cover;
+        background-repeat: no-repeat;
+      padding-bottom: 0px;
+      margin-top: -50px;
+
+    }
+    #SectionPresentation .boxsAccueil{
+      margin-top: 20px;
+      width: 120px;
+      height: 120px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 120px;
+      height: 120px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 120px;
+        height: 120px;
+    }
+    #SectionPresentation .boxsAccueil a.titres h2{
+      font-size:18px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:20px;
+          width: 240px;
+          height: 240px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 240px;
+          height: 240px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 240px;
+          height: 240px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:35px;
+    }
+
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -980px;
+    }
+    .animated-naabad h1 {
+      font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px){
+  
+  #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-360x740.png);
+      padding-bottom: 20px;
+      margin-top: -50px;
+    }
+  #SectionPresentation .boxsAccueil{
+      margin-top: 30px;
+    }
+        #SectionPresentation #boxStudioLabel{
+          margin-top:30px;
+      }
+
+    /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1050px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 321px){
+/* NAVABAR */
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens{
+    width: 40%;
+}
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
+     margin: 0px 4px;
+  color:rgb(36, 32, 59);
+  font-size:13px;
+}
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo{
+    width: 30%;
+    height: 100%;
+}
+#navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLogo #NavBarHautLogoLien #NavBarHautLogoImage{
+    margin-top: 40px;
+    width:80px;
+    height:69px;
+}
+ /* RESEAUX SOCIAUX */
+    #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautReseauxSociaux{
+      width: 30%;
+      padding-top: 40px;
+  }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img{
+    transition-duration: 0.6s;
+    width: 35px;
+    }
+   section.ReseauxSociaux-icones a.ReseauxSociaux-liens img:hover{
+    transition-duration: 0.6s;
+    width: 40px;
+   }
+
+
+/* SECTION PRESENTATION */
+#SectionPresentation{
+  background-image: url(../images/imageBackGroundIndex-mobile-320.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+  margin-top: -50px;
+}
+
+    #SectionPresentation .boxsAccueil{
+      margin-top: 20px;
+      width: 120px;
+      height: 120px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 120px;
+      height: 120px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 120px;
+        height: 120px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:20px;
+          width: 220px;
+          height: 220px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 220px;
+          height: 220px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 220px;
+          height: 220px;
+      }
+
+/* NAABAD ANIMé */
+#animated-naabad-section{
+    margin-bottom: -980px;
+  }
+  .animated-naabad h1 {
+    font-size: 1em;
+}
+
+}
+
+
+
+
+

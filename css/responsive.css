@@ -718,7 +718,7 @@ section#animated-background .air{
 
 
 
-
+/* WIDTH MOBILE */
 
 
 
@@ -816,6 +816,7 @@ section#animated-background .air{
     height: 120px;
   }
   #SectionPresentation .boxsAccueil:hover{
+    margin-top: 20px;
     width: 120px;
     height: 120px;
   }
@@ -902,39 +903,19 @@ section#animated-background .air.air4{
 
 
 
+
+
+
+
 @media screen and (max-width: 415px){
   /* NAVBAR */
-  #navBarHaut.NavBarHaut-responsive-desktop-tablet{
-    display: none;
-}
-#navBarHaut.NavBarHaut-responsive-mobile{
-    display: block;
 
-    /* Disposition des éléments */
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:row;
-    /* Apparence */
-    height:70px;
-    width:100%;
-    border-bottom: 3px solid #12111055;
-        box-shadow: 0px 0px 10px 10px rgba(71, 71, 71, 0.37);
-    
-}
-  #navBarHaut.NavBarHaut-responsive-mobile section#NavBarHautLiens a.titres{
-    font-size:16px;
-  }
    /* SECTION PRESENTATION */
     #SectionPresentation{
       background-image: url(../images/imageBackGroundIndex-mobile-414x896.png);
-      background-size: cover;
-        background-repeat: no-repeat;
-      padding-bottom: 20px;
 
     }
     #SectionPresentation .boxsAccueil{
-      margin-top: 30px;
       width: 180px;
       height: 180px;
     }
@@ -952,7 +933,6 @@ section#animated-background .air.air4{
     }
     /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
       #SectionPresentation #boxStudioLabel{
-          margin-top:30px;
           width: 300px;
           height: 300px;
       }
@@ -1028,10 +1008,6 @@ section#animated-background .air.air4{
   /* SECTION PRESENTATION */
     #SectionPresentation{
       background-image: url(../images/imageBackGroundIndex-mobile-375.png);
-      background-size: cover;
-        background-repeat: no-repeat;
-      padding-bottom: 0px;
-      margin-top: -50px;
 
     }
     #SectionPresentation .boxsAccueil{
@@ -1152,10 +1128,8 @@ section#animated-background .air.air4{
 /* SECTION PRESENTATION */
 #SectionPresentation{
   background-image: url(../images/imageBackGroundIndex-mobile-320.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 0px;
-  margin-top: -50px;
+          background-size: cover;
+        background-repeat: no-repeat;
 }
 
     #SectionPresentation .boxsAccueil{
@@ -1201,3 +1175,109 @@ section#animated-background .air.air4{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEIGHT MOBILE */
+
+
+
+
+
+@media screen and (max-height: 645px) and (max-width: 426px){
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-425pour425x600.png);
+      background-size: cover;
+        background-repeat: no-repeat;
+    }
+   #SectionPresentation .boxsAccueil{
+      margin-top: 20px;
+      width: 100px;
+      height: 100px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 100px;
+      height: 100px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        width: 100px;
+        height: 100px;
+      }
+     #SectionPresentation .boxsAccueil a.titres h2{
+       font-size: 15px;
+      }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          margin-top:20px;
+          width: 200px;
+          height: 200px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 200px;
+          height: 200px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 200px;
+          height: 200px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres h2{
+          font-size: 25px;
+      }
+
+/* NAABAD ANIMé */
+#animated-naabad-section{
+    margin-bottom: -890px;
+  }
+  .animated-naabad h1 {
+    font-size: 1em;
+}
+
+}
+
+
+
+@media screen and (max-height: 645px) and (max-width: 376px){
+    #SectionPresentation{
+  background-image: url(../images/imageBackGroundIndex-mobile-425pour375.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+}
+
+
+
+
+
+@media screen and (max-height: 645px) and (max-width: 320px){
+  #SectionPresentation{
+  background-image: url(../images/imageBackGroundIndex-mobile-425pour320.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+}

@@ -905,7 +905,57 @@ section#animated-background .air.air4{
 
 
 
+@media screen and (max-width: 415px){
+  /* NAVBAR */
 
+   /* SECTION PRESENTATION */
+    #SectionPresentation{
+      background-image: url(../images/imageBackGroundIndex-mobile-414x896.png);
+
+    }
+    #SectionPresentation .boxsAccueil{
+      width: 140px;
+      height: 140px;
+    }
+    #SectionPresentation .boxsAccueil:hover{
+      width: 140px;
+      height: 140px;
+    }
+     #SectionPresentation .boxsAccueil a.titres{
+        color:#F3E9D6;
+        width: 140px;
+        height: 140px;
+    }
+    #SectionPresentation .boxsAccueil a.titres h2{
+      font-size:28px;
+    }
+    /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
+      #SectionPresentation #boxStudioLabel{
+          width: 280px;
+          height: 280px;
+      }
+      #SectionPresentation #boxStudioLabel:hover{
+          width: 280px;
+          height: 280px;
+      }
+      #SectionPresentation #boxStudioLabel a.titres{
+          width: 280px;
+          height: 280px;
+      }
+    #SectionPresentation #boxStudioLabel a.titres h2{
+      font-size:40px;
+    }
+
+
+  /* NAABAD ANIMé */
+    #animated-naabad-section{
+      margin-bottom: -1200px;
+    }
+    .animated-naabad h1 {
+      font-size: 1.3em;
+    }
+
+}
 
 
 
@@ -1082,7 +1132,7 @@ section#animated-background .air.air4{
 
     #SectionPresentation .boxsAccueil{
       margin-top: 20px;
-      width: 200px;
+      width: 120px;
       height: 120px;
     }
     #SectionPresentation .boxsAccueil:hover{

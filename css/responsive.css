@@ -907,11 +907,18 @@ section#animated-background .air.air4{
 
 @media screen and (max-width: 415px){
   /* NAVBAR */
+  #navBarHaut.NavBarHaut-responsive-mobile{
+    /* Apparence */
+    height:60px;
+    width:100%;
+
+}
 
    /* SECTION PRESENTATION */
     #SectionPresentation{
       background-image: url(../images/imageBackGroundIndex-mobile-414x896.png);
-
+      padding-bottom: 10px;
+      margin-top: -50px;
     }
     #SectionPresentation .boxsAccueil{
       width: 140px;
@@ -927,7 +934,7 @@ section#animated-background .air.air4{
         height: 140px;
     }
     #SectionPresentation .boxsAccueil a.titres h2{
-      font-size:28px;
+      font-size:22px;
     }
     /* BULLE DU MILIEU UN PEU PLUS GROSSE QUE LES DEUX AUTRES */
       #SectionPresentation #boxStudioLabel{
@@ -949,7 +956,7 @@ section#animated-background .air.air4{
 
   /* NAABAD ANIMé */
     #animated-naabad-section{
-      margin-bottom: -1200px;
+      margin-bottom: -1050px;
     }
     .animated-naabad h1 {
       font-size: 1.3em;
